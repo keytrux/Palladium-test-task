@@ -3,7 +3,7 @@ CREATE DATABASE palladium;
 USE palladium;
 
 CREATE TABLE type_groups(
-    id_group INT PRIMARY KEY,
+    id_group INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100)
 );
 
